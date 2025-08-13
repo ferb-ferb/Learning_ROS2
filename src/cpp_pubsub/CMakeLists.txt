@@ -13,7 +13,7 @@ find_package(std_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(talker src/publisher_lambda_function.cpp)
+add_executable(talker src/publisher-lambda.cpp)
 ament_target_dependencies(talker rclcpp std_msgs)
 
 install(TARGETS

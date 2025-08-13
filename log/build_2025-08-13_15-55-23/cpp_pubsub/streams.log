@@ -1,0 +1,40 @@
+[0.010s] Invoking command in '/home/ferb/ros2-ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ferb/ros2-ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ferb/ros2-ws/install/cpp_pubsub
+[0.023s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.171s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.235s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.236s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.312s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.369s] -- Configuring done (0.3s)
+[0.374s] -- Generating done (0.0s)
+[0.376s] -- Build files have been written to: /home/ferb/ros2-ws/build/cpp_pubsub
+[0.384s] Invoked command in '/home/ferb/ros2-ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ferb/ros2-ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ferb/ros2-ws/install/cpp_pubsub
+[0.384s] Invoking command in '/home/ferb/ros2-ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ferb/ros2-ws/build/cpp_pubsub -- -j22 -l22
+[0.427s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher-lambda.cpp.o[0m
+[2.656s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.753s] [100%] Built target talker
+[2.766s] Invoked command in '/home/ferb/ros2-ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ferb/ros2-ws/build/cpp_pubsub -- -j22 -l22
+[2.772s] Invoking command in '/home/ferb/ros2-ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ferb/ros2-ws/build/cpp_pubsub
+[2.777s] -- Install configuration: ""
+[2.777s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.778s] -- Set non-toolchain portion of runtime path of "/home/ferb/ros2-ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.778s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.779s] -- Installing: /home/ferb/ros2-ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.780s] Invoked command in '/home/ferb/ros2-ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ferb/ros2-ws/build/cpp_pubsub
